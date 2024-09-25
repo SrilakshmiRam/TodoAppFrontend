@@ -1,0 +1,128 @@
+/* index.css */
+
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+input {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between tasks */
+}
+
+.li-item {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center items vertically */
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.li-item:hover {
+    transform: scale(1.02);
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    flex-grow: 1; /* Allow title to take available space */
+    margin-right: 10px; /* Space between title and buttons */
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+}
+
+.buttons-container {
+    display: flex; /* Use flexbox for button alignment */
+    gap: 10px; /* Space between buttons */
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    input {
+        width: 95%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .li-item {
+        padding: 10px;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+    }
+
+    .button {
+        margin-bottom: 5px;
+    }
+}
+

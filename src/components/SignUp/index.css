@@ -1,0 +1,66 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 2px #ddd;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.input-element{
+    height: 30px;
+    width: 250px;
+    border: 1px solid #d1dbdb;
+    border-radius: 4px;
+}
+
+.label{
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.text{
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 14px;
+    color: #545557;
+}
+
+.Account-btn{
+    height: 30px;
+    width: 120px;
+    background-color: #3455eb;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 14px;
+    color: #ffffff;
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
